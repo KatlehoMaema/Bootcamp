@@ -1,4 +1,4 @@
 function greet() {
-    var name = document.getElementById("search").ariaValueMax;
-    alert("Hello "+Kgotso),
+    var name = document.getElementById("search").value;
+    alert("Hello "+name)
 }
