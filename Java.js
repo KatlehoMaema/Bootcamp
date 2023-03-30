@@ -69,11 +69,11 @@ for(let k = 0; k <= numbers.length; k++){
    } 
     
 }
-//OR in order for it not give me an Iedntiyied statement I do this
+//OR in order for it not give me an Iedntified statement I shall do this
 
 for(let k=0; k< numbers.length; k++){
     if(numbers[k] % 2==0){
         console.log(numbers[k])
     }
-    
+
 }
