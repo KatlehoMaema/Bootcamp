@@ -58,12 +58,22 @@
 // for (let i = 0; i <= 9; i++) {
 //     console.log(i)
 // }
+//Find even numbers
 
 let numbers = [2,9,11,7,5,3,4,8,15,21,19]
     
 for(let k = 0; k <= numbers.length; k++){
-   if(numbers[k] % 2 == 0){
+   if(numbers[k
+] % 2 == 0){
     console.log(numbers[k])
    } 
+    
+}
+//OR in order for it not give me an Iedntiyied statement I do this
+
+for(let k=0; k< numbers.length; k++){
+    if(numbers[k] % 2==0){
+        console.log(numbers[k])
+    }
     
 }
