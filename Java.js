@@ -23,13 +23,47 @@
     //console.log ("it is lesser than a decade");
 //} else {
     //console.log("we cannot have negetive years!")
-let a= 30;
-let b= 17;
-let c= 13;
-if (a>b && a>c){
-    console.log(a);
-} else if (b>a && b>c) {
-    console.log(b)
-} else if (c>a && c>b) {
+//let a= 30;
+//let b= 17;
+//let c= 13;
+//if (a>b && a>c){
+    //console.log(a);
+//} else if (b>a && b>
+    //c) {
+    //console.log(b)
+//} else if (c>a && c>b) {
 
+//check if the number is even
+// let z= 19
+// let y= 2
+// let x= 5 % 2
+// console.log (x);
+
+
+// //function checkEvenNumber(){
+//     //let a = document.getElementById("evennumber").value
+
+//     //if (a % 2 == 0) {
+//     //   alert(a + "it is an even number") 
+//     // else {
+//       //  alert(a + "odd number") 
+//     //}
+
+// //For loop
+
+// for (let i = 0; i < 9; i++) {
+//     console.log(i)
+// }
+
+// for (let i = 0; i <= 9; i++) {
+//     console.log(i)
+// }
+
+let numbers = [2,9,11,7,5,3,4,8,15,21,19]
+    
+for(let k = 0; k <= numbers.length; k++){
+   if(numbers[k] % 2 == 0){
+    console.log(numbers[k])
+   } 
+    
 }
