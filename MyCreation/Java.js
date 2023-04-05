@@ -87,5 +87,5 @@ let fullname= [kaygee]
 
 for (k=0; k < fullname.length; k++) {
     if(fullname[k])
-    console.log()
+    console.log(kaygee)
 }
