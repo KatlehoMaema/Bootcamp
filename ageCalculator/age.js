@@ -1,20 +1,19 @@
 //Calculate age
 
-//function agecalculate (bornyear){
-//    let age = (2023- borndate);
-//    if (age < 0 ) {console.log("age can never negetive")
-//    }
-//    else if (age>= 0)
-//    {console.log(age)}
-//    else (!bornyear)
-//    {console.log("enter birth year")}
+function agecalculate (){
 
-//}
-//agecalculate(bornyear)
+    let bornyear = document.getElementById("age").value
+    let age =  (2023- bornyear);
+    if (age < 0 ) {alert("age can never negetive")
+    }
+   
+    else if (age>= 0)
 
-// index.js
+    {
+        alert(age)}
 
-function addnumbers (a,b) {
-    return a+b
+    else(!bornyear); {
+alert("enter birth year") }
 }
+agecalculate()
 
