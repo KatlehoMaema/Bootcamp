@@ -6,23 +6,36 @@ let image = [
    "image1.jpg",
    "image2.jpg",
    "image3.jpg",
+   "image4.jpg",
+   "image6.jpg",
+   "image7.jpg",
+   "image8.jpg",
 ]
 
 let current = 0;
+function save() {
+    let img = document.querySelector(".file").value;
+    image.push(img);
+    console.log(img)
+//    document.querySelector("file").value = '';
+}
 
 function next(){
-    show.src = image[current]
+    
     current++
     if(current >= image.length){
         current = 0
+
     }
+    show.src = image[current]
 }
 
 function prev(){
-    show.src = image[current]
+    
     current--
     if(current < 0){
         current = image.length -1
     }
+    show.src = image[current]
 }
 

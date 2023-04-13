@@ -8,20 +8,30 @@
     <link rel="stylesheet" href="image.css">
 </head>
 <body>
-    <h1>
-        My Image Viewer/Slider
-    </h1>
-     <div class="image slide">
+   
+     <div id="div1" class="image slide">
+        <h1>
+            My Image Viewer/Slider
+        </h1>
         <div class="Image container">
             <Img src="Image1.jpg" alt="" class="image-slide">
-        <div>       
+
         <div class="button">
             <button onclick="prev()" >Previous</button>
-            <button onclick="next()">NEXT</button>   
-        </div>
+            <button onclick="next()">NEXT</button>
 
-     </div>  
-        
+        </div>
+        <div class="button">
+            <input class="file" type="text">
+            <button id="AddBtn" onclick="save()">ADD IMAGE</button>
+            
+
+  
+        </div>
+      
+
+</div>
+</div>
 
     <script src="image.js"></script>
 
