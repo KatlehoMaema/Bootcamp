@@ -17,12 +17,12 @@ function save() {
     let img = document.querySelector(".file").value;
     image.push(img);
     console.log(img)
-//    document.querySelector("file").value = '';
+    document.querySelector("file").value = '';
 }
 
 function next(){
     
-    current++
+   current++
     if(current >= image.length){
         current = 0
 
@@ -39,3 +39,22 @@ function prev(){
     show.src = image[current]
 }
 
+let pictures = [
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
+    "image4.jpg",
+    "image6.jpg",
+    "image7.jpg",
+    "image8.jpg",
+]
+ //localStorage.setItem("image",JSON.stringfy(pictures))
+localStorage.setItem("pictures", JSON.stringify(image));
+localStorage.getItem(image);
+
+
+let mages;
+if(localStorage.getItem("images")){
+    image = JSON.parse(localStorage.getItem("images"));
+
+}
