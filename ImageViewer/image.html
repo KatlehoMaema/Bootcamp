@@ -14,7 +14,7 @@
             My Image Viewer/Slider
         </h1>
         <div class="Image container">
-            <Img src="Image1.jpg" alt="" class="image-slide">
+            <Img src="Image1.jpg" alt="" class="image-slide" id="pictures">
 
         <div class="button">
             <button onclick="prev()" >Previous</button>
@@ -22,11 +22,11 @@
 
         </div>
         <div class="button">
-            <input class="file" type="text">
-            <button id="AddBtn" onclick="save()">ADD IMAGE</button>
+            <input class="file" type="text" id="newSlider">
+            <button  onclick="save()">ADD IMAGE</button>
+            <button onclick="removeImage()">REMOVE IMG</button>
             
 
-  
         </div>
       
 
